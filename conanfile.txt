@@ -1,0 +1,15 @@
+[requires]
+openssl/1.1.1s@
+boost/1.82.0
+mongo-cxx-driver/3.7.2
+jwt-cpp/0.6.0
+picojson/cci.20210117
+grpc/1.46.3
+protobuf/3.21.9@
+
+[options]
+boost*:shared=True 
+
+[generators]
+CMakeDeps
+CMakeToolchain
